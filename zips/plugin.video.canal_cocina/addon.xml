@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.canal_cocina" name="[COLOR orange][B]Canal Cocina a la Carta[/B][/COLOR]" version="0.0.1" provider-name="Bad-Max">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests"/> 
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Addon de Canal Cocina</summary>
+    <description>[COLOR red]Parser de la Web Pública de Canal Cocina.[/COLOR]
+</description>
+    <platform>all</platform>
+  </extension>
+</addon>

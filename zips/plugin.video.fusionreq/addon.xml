@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.fusionreq"
+	name="Fusion Req"
+	version="0.0.4"
+	provider-name="JesusOSX">
+  <requires>
+    <import version="2.1.0" addon="xbmc.python"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.module.urlresolver" version=""/>
+	<import addon="script.module.requests"    version="2.12.4"/>
+	<import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Fusion Request</summary>
+    <description lang="en">Complemento de video Extra del Team Fusion</description>
+    <summary lang="es">Fusion Request</summary>
+    <description lang="es">Complemento de video Extra del Team Fusion</description>
+    <platform>all</platform>
+  </extension>
+</addon>

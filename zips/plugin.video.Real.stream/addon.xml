@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Real.stream"
+       name="[COLOR fuchsia]Real Stream[/COLOR]"
+       version="1.2.0"
+       provider-name="Netai/Jose">
+  <requires>
+  
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="5.0.0"/>
+	<import addon="script.module.resolveurl" version="5.0.0"/>
+    <import addon="script.extendedinfo" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true"/>
+	
+  </requires>
+    <news>
+	[COLOR orange]
+	Cambios en esta version:
+	[/COLOR]
+	[COLOR gold]
+	- Agregado nuevo sub menu para series.
+	[/COLOR]
+    </news>
+  <extension point="xbmc.python.pluginsource" library="run.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="es">Realstream</summary>
+  <description lang="es">Visualiza contenido en streaming proveniente de internet.</description>
+  <disclaimer>
+  [COLOR blue]Nosotros no alojamos ningun contenido en este addon, todo el contenido proviene de internet. Disponible para todo el mundo de forma publica y gratuita.[/COLOR]</disclaimer>
+  <platform>all</platform>
+  <license>GNU GPL v3</license>
+  <platform>all</platform>
+  </extension>
+</addon>

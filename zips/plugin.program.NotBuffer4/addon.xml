@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.NotBuffer4" name="[COLOR orange] NotBuffer 4 [/COLOR]" version="1.1" provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>	
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <summary>NotBuffer 4</summary>
+  <description>Configura el buffer y limpia tu Kodi.</description>
+
+	
+	  <platform>all</platform>
+	  <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    				
+    </assets>
+    <license>GNU/GPL - v3</license>
+ 
+    <website>web</website>
+    <email>netaiaddons@gmail.com</email>
+    <source>https://netai.eu/netai</source>
+  </extension> 
+</addon>
